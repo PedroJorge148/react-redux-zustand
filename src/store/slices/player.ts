@@ -42,8 +42,6 @@ const playerSlice = createSlice({
   name: 'player',
   initialState,
   reducers: {
-    
-
     play: (state, action: PayloadAction<[number, number]>) => {
       state.currentModuleIndex = action.payload[0]
       state.currentLessonIndex = action.payload[1]
