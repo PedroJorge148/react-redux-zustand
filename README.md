@@ -1,4 +1,4 @@
-# React To Do List 
+# 📈 React To Do List 
 **Challenge 01 - Trilha React**
 
 ![Classroom app - Redux and Zustand](/.github/screenshots/img_1.png "Classroom app - Redux and Zustand")
@@ -19,6 +19,12 @@ This is a classroom app that manage modules and classes through redux/zustand, a
 5. Run the app using the command:
 > npm run dev
 
+**OBS.:** The finish setup using redux is on the commit [d2b8eaf](https://github.com/PedroJorge148/react-redux-zustand/commit/d2b8eafb5aa601348ec07121d65f2f0c301afcb2) , after I started using zustand. The folders are splitted into store and zustand-store.
+
+
+## :rocket: Follow Me
+
+[![GitHub followers](https://img.shields.io/github/followers/pedrojorge148?style=social&label=Follow&maxAge=2592000)](https://github.com/pedrojorge148 "Follow Me") [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pedrojorge258/)](https://www.linkedin.com/in/pedrojorge258/)  [![Instagram Badge](https://img.shields.io/badge/-Instagram-purple?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/pedrojrg_)](https://www.instagram.com/pedrojrg_/)
 
 ## 📝 License
 
