@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# React To Do List 
+**Challenge 01 - Trilha React**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Classroom app - Redux and Zustand](/.github/screenshots/img_1.png "Classroom app - Redux and Zustand")
 
-Currently, two official plugins are available:
+## :page_with_curl:  Description
+This is a classroom app that manage modules and classes through redux/zustand, a global state management lib. This app uses react and has loading state, json-server, axios, tailwindcss and testing.
+ 
+## :gear: Tech Stack
+[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Vite](https://skillicons.dev/icons?i=vite "Vite")](https://vitejs.dev/ "Vite") [![Vitest](https://skillicons.dev/icons?i=vitest "Vitest")](https://vitest.dev/ "Vitest") [![Redux](https://skillicons.dev/icons?i=redux "Redux")](https://redux.js.org/ "Redux") [![tailwind](https://skillicons.dev/icons?i=tailwind "tailwind")](https://tailwindcss.com/ "tailwind")
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 How to run
+1. Make sure **Git** and **NodeJS** is installed.
+2. Clone this repository to your local computer.
+3. Install the project dependencies using:
+> npm install
+4. Run the API that's using json server with command:
+> npm run server
+5. Run the app using the command:
+> npm run dev
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📝 License
 
-- Configure the top-level `parserOptions` property like this:
+This project uses MIT License. You can see the file [LICENSE](LICENSE) for more details.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+  ---
