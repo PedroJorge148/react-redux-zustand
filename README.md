@@ -1,5 +1,5 @@
-# 📈 React To Do List 
-**Challenge 01 - Trilha React**
+# 📈 React Redux/Zustand
+A simple app classroom for introduce redux and zustand, libs for global state management.
 
 ![Classroom app - Redux and Zustand](/.github/screenshots/img_1.png "Classroom app - Redux and Zustand")
 
